@@ -1,2 +1,2 @@
 # balldetec
-Just clone and ./Rebuid
+Just clone and ./Rebuild
