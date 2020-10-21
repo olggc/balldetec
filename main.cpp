@@ -2,7 +2,6 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/core/core.hpp"
-#include "clustering.h"
 #include <iostream>
 
 using namespace std;
@@ -24,7 +23,6 @@ int main(int argc, char **argv)
 
     CascadeClassifier cascade;
     cascade.load("cascade.xml");
-    loadFile("campo.txt");
 
     Mat frame_gray;
     //Mat frame_hsv;
@@ -41,8 +39,6 @@ int main(int argc, char **argv)
 
         resize(frame, resized_frame, resized_frame.size());
         frame = resized_frame.clone();
-
-        clustering(frame);
 
 
         //cvtColor(frame, frame_hsv, CV_BGR2HSV);

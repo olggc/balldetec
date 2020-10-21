@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rinobot/balldetec/main.cpp
+opencv2/opencv.hpp
+/home/rinobot/balldetec/opencv2/opencv.hpp
+opencv2/imgproc/imgproc.hpp
+/home/rinobot/balldetec/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/rinobot/balldetec/opencv2/highgui/highgui.hpp
+opencv2/core/core.hpp
+/home/rinobot/balldetec/opencv2/core/core.hpp
+iostream
+-
+

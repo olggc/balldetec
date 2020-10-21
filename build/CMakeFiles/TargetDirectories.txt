@@ -1,0 +1,3 @@
+/home/rinobot/balldetec/build/CMakeFiles/rebuild_cache.dir
+/home/rinobot/balldetec/build/CMakeFiles/main.dir
+/home/rinobot/balldetec/build/CMakeFiles/edit_cache.dir
